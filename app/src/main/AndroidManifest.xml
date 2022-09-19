@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.test.daowah">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Daowah"
+        tools:targetApi="31">
+        <activity
+            android:name=".question"
+            android:exported="false" />
+        <activity
+            android:name=".feedback"
+            android:exported="false" />
+        <activity
+            android:name=".SocialLinks"
+            android:exported="false" />
+        <activity
+            android:name=".Course"
+            android:exported="false" />
+        <activity
+            android:name=".Blood"
+            android:exported="false" />
+        <activity
+            android:name=".PagesLink"
+            android:exported="false" />
+        <activity
+            android:name=".Apps"
+            android:exported="false" />
+        <activity
+            android:name=".Books"
+            android:exported="false" />
+        <activity
+            android:name=".Recitation"
+            android:exported="false" />
+        <activity
+            android:name=".IslamicSong"
+            android:exported="false" />
+        <activity
+            android:name=".Wallpaper"
+            android:exported="false" />
+        <activity
+            android:name=".Post"
+            android:exported="false" />
+        <activity
+            android:name=".Videos"
+            android:exported="false" />
+        <activity
+            android:name=".Dua"
+            android:exported="false" />
+        <activity
+            android:name=".Fatwah"
+            android:exported="false" />
+        <activity
+            android:name=".AllahName"
+            android:exported="false" />
+        <activity
+            android:name=".Hadis"
+            android:exported="false" />
+        <activity
+            android:name=".Quran"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

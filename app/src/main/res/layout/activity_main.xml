@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/blue"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="212dp"
+        android:layout_height="221dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="23dp"
+        android:layout_height="wrap_content"
+        android:text="THINK OF ISLAM"
+        android:fontFamily="@font/style"
+        android:textAlignment="center"
+        android:textSize="70sp"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        />
+</LinearLayout>
